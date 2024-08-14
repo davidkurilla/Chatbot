@@ -1,5 +1,6 @@
 # Imports
 import os
+from groq import Groq
 import streamlit as st
 
 # Get API Key
