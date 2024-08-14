@@ -33,7 +33,7 @@ def prompt_groq(prompt):
     return "SYSTEM ERROR - Could not get response from Groq"
 
 # Setup UI for Streamlit
-st.title("Pieces Chatbot")
+st.title("Groq Chatbot")
 
 # Initialize chat history
 if "messages" not in st.session_state:
